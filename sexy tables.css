@@ -1,0 +1,23 @@
+﻿/* tables */
+table {
+	border-color:dimgrey;
+	border-style:solid;
+	border-width:1px;
+	margin:auto; /* center */
+}
+
+table caption {
+	color:steelblue;
+	font-family:Segoe UI;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0.3em 0;
+}
+
+table td {
+	background-color:whitesmoke;
+}
+
+table thead {
+	background-color:gainsboro;
+}

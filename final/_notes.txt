@@ -1,0 +1,7 @@
+﻿<  → &lt;
+>  → &gt;
+&  → &amp;
+en → &ndash;
+em → &mdash;
+
+http://validator.w3.org/

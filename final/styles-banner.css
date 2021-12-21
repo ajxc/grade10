@@ -1,0 +1,61 @@
+﻿/* utf-8 */
+
+* {margin:0; padding:0;}
+
+a {color:cornflowerblue; text-decoration:none;}
+a:focus {color:darkgreen;}
+a:hover {color:coral;}
+a:visited {color:slateblue;}
+
+
+html, body {
+	background:maroon;
+	height:101%;
+	overflow:hidden;
+}
+
+/*〓〓〓〓〓〓*/
+
+div.title {
+	background-color:crimson;
+	background-image:radial-gradient(circle at 50% 50%, crimson 10%, maroon 100%);
+	font-family:'Gill Sans MT Condensed', 'Gill Sans MT', sans-serif;
+	font-stretch:condensed;
+	height:71%;
+	text-align:center;
+	vertical-align: middle;
+
+	display:flex;
+	align-items:center;
+	justify-content:center;
+		/* http://stackoverflow.com/questions/5703552/css-center-text-horizontal-and-vertical-inside-a-div-block */
+}
+
+a.linktomain {
+	color:white;
+	font-size:4em;
+	text-shadow:5px 5px 6px gainsboro;
+}
+
+a.linktomain:hover {
+	font-size:4.5em;
+	text-shadow:5px 5px 6px white;
+}
+
+/*〓〓〓〓〓〓*/
+
+div.linkscontainer {
+	background-color:maroon;
+	font-family:'Segoe UI', sans-serif;
+	text-align:center;
+		/* aligns the boxes */
+}
+
+a.button {
+	background-color:white;
+	display:inline-block;
+	margin-top:1px;
+	padding:1em 0;
+	text-align:center;
+	width:32.75%;
+}
